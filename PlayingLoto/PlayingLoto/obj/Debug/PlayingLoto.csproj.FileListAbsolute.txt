@@ -8,3 +8,13 @@ C:\Users\edoro\source\repos\PlayingLoto\PlayingLoto\obj\Debug\PlayingLoto.csproj
 C:\Users\edoro\source\repos\PlayingLoto\PlayingLoto\obj\Debug\PlayingLoto.csproj.CoreCompileInputs.cache
 C:\Users\edoro\source\repos\PlayingLoto\PlayingLoto\obj\Debug\PlayingLoto.exe
 C:\Users\edoro\source\repos\PlayingLoto\PlayingLoto\obj\Debug\PlayingLoto.pdb
+C:\Users\edoro\OneDrive\Documents\GitHub\PracticingCoding\PlayingLoto\PlayingLoto\bin\Debug\PlayingLoto.exe.config
+C:\Users\edoro\OneDrive\Documents\GitHub\PracticingCoding\PlayingLoto\PlayingLoto\bin\Debug\PlayingLoto.exe
+C:\Users\edoro\OneDrive\Documents\GitHub\PracticingCoding\PlayingLoto\PlayingLoto\bin\Debug\PlayingLoto.pdb
+C:\Users\edoro\OneDrive\Documents\GitHub\PracticingCoding\PlayingLoto\PlayingLoto\obj\Debug\PlayingLoto.csprojAssemblyReference.cache
+C:\Users\edoro\OneDrive\Documents\GitHub\PracticingCoding\PlayingLoto\PlayingLoto\obj\Debug\PlayingLoto.Form1.resources
+C:\Users\edoro\OneDrive\Documents\GitHub\PracticingCoding\PlayingLoto\PlayingLoto\obj\Debug\PlayingLoto.Properties.Resources.resources
+C:\Users\edoro\OneDrive\Documents\GitHub\PracticingCoding\PlayingLoto\PlayingLoto\obj\Debug\PlayingLoto.csproj.GenerateResource.cache
+C:\Users\edoro\OneDrive\Documents\GitHub\PracticingCoding\PlayingLoto\PlayingLoto\obj\Debug\PlayingLoto.csproj.CoreCompileInputs.cache
+C:\Users\edoro\OneDrive\Documents\GitHub\PracticingCoding\PlayingLoto\PlayingLoto\obj\Debug\PlayingLoto.exe
+C:\Users\edoro\OneDrive\Documents\GitHub\PracticingCoding\PlayingLoto\PlayingLoto\obj\Debug\PlayingLoto.pdb

@@ -135,6 +135,7 @@
             // 
             // txtIzvuceni7
             // 
+            this.txtIzvuceni7.Enabled = false;
             this.txtIzvuceni7.Location = new System.Drawing.Point(300, 50);
             this.txtIzvuceni7.Name = "txtIzvuceni7";
             this.txtIzvuceni7.Size = new System.Drawing.Size(34, 22);
@@ -142,6 +143,7 @@
             // 
             // txtIzvuceni3
             // 
+            this.txtIzvuceni3.Enabled = false;
             this.txtIzvuceni3.Location = new System.Drawing.Point(140, 50);
             this.txtIzvuceni3.Name = "txtIzvuceni3";
             this.txtIzvuceni3.Size = new System.Drawing.Size(34, 22);
@@ -149,6 +151,7 @@
             // 
             // txtIzvuceni6
             // 
+            this.txtIzvuceni6.Enabled = false;
             this.txtIzvuceni6.Location = new System.Drawing.Point(260, 50);
             this.txtIzvuceni6.Name = "txtIzvuceni6";
             this.txtIzvuceni6.Size = new System.Drawing.Size(34, 22);
@@ -156,6 +159,7 @@
             // 
             // txtIzvuceni1
             // 
+            this.txtIzvuceni1.Enabled = false;
             this.txtIzvuceni1.Location = new System.Drawing.Point(60, 50);
             this.txtIzvuceni1.Name = "txtIzvuceni1";
             this.txtIzvuceni1.Size = new System.Drawing.Size(34, 22);
@@ -163,6 +167,7 @@
             // 
             // txtIzvuceni5
             // 
+            this.txtIzvuceni5.Enabled = false;
             this.txtIzvuceni5.Location = new System.Drawing.Point(220, 50);
             this.txtIzvuceni5.Name = "txtIzvuceni5";
             this.txtIzvuceni5.Size = new System.Drawing.Size(34, 22);
@@ -170,6 +175,7 @@
             // 
             // txtIzvuceni2
             // 
+            this.txtIzvuceni2.Enabled = false;
             this.txtIzvuceni2.Location = new System.Drawing.Point(100, 50);
             this.txtIzvuceni2.Name = "txtIzvuceni2";
             this.txtIzvuceni2.Size = new System.Drawing.Size(34, 22);
@@ -177,6 +183,7 @@
             // 
             // txtIzvuceni4
             // 
+            this.txtIzvuceni4.Enabled = false;
             this.txtIzvuceni4.Location = new System.Drawing.Point(180, 50);
             this.txtIzvuceni4.Name = "txtIzvuceni4";
             this.txtIzvuceni4.Size = new System.Drawing.Size(34, 22);
@@ -187,9 +194,8 @@
             this.lblBrojPogodenih.AutoSize = true;
             this.lblBrojPogodenih.Location = new System.Drawing.Point(150, 360);
             this.lblBrojPogodenih.Name = "lblBrojPogodenih";
-            this.lblBrojPogodenih.Size = new System.Drawing.Size(32, 17);
+            this.lblBrojPogodenih.Size = new System.Drawing.Size(0, 17);
             this.lblBrojPogodenih.TabIndex = 15;
-            this.lblBrojPogodenih.Text = "broj";
             // 
             // label1
             // 
