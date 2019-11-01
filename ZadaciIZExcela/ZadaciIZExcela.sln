@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomobiliZadatakAlgebra", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "111Zadatak", "111Zadatak\111Zadatak.csproj", "{0863CD39-A455-4456-A12F-A20C62712267}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "112Zadatak", "112Zadatak\112Zadatak.csproj", "{41FE349E-3F51-45C4-A83E-1945C9F34A0B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{0863CD39-A455-4456-A12F-A20C62712267}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0863CD39-A455-4456-A12F-A20C62712267}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0863CD39-A455-4456-A12F-A20C62712267}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41FE349E-3F51-45C4-A83E-1945C9F34A0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41FE349E-3F51-45C4-A83E-1945C9F34A0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41FE349E-3F51-45C4-A83E-1945C9F34A0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41FE349E-3F51-45C4-A83E-1945C9F34A0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
