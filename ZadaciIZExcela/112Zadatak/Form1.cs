@@ -1,12 +1,17 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace _112Zadatak
 {
     public partial class Form1 : Form
     {
-        private Text text = new Text();
-
         public Form1()
         {
             InitializeComponent();
@@ -14,26 +19,7 @@ namespace _112Zadatak
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
-            text.InputedText(rtbInputedText.Text);
-            rtbReversedText.Text = text.ReverseOrder();
-            lblNumberOfChars.Text = text.NumberOfChar();
-        }
 
-        private void txtInputedChar_TextChanged(object sender, EventArgs e)
-        {
-            if (txtInputedChar.Text.Length > 1)
-            {
-                MessageBox.Show("Samo jedno slovo mozete upisati!", "Error");
-                lblRepetitionOfInputedChar.Text = "";
-            }
-            else if (txtInputedChar.Text.Length == 0)
-            {
-                lblNumberOfChars.Text = "";
-            }
-            else
-            {
-                lblRepetitionOfInputedChar.Text = text.NumberOfInputedChar(char.Parse(txtInputedChar.Text));
-            }
         }
     }
 }
