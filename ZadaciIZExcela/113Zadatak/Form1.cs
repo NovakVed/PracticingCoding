@@ -12,6 +12,8 @@ namespace _113Zadatak
 {
     public partial class Form1 : Form
     {
+        Sort sort = new Sort();
+
         public Form1()
         {
             InitializeComponent();
@@ -19,17 +21,26 @@ namespace _113Zadatak
 
         private void btnInputList_Click(object sender, EventArgs e)
         {
-
+            sort.AddToLIst(txtNumber.Text);
+            RefreshList();
         }
 
         private void btnSortList_Click(object sender, EventArgs e)
         {
-
+            sort.SortedList();
+            RefreshList();
         }
 
         private void btnOriginalList_Click(object sender, EventArgs e)
         {
+            sort.OriginalList();
+            RefreshList();
+        }
 
+        private void RefreshList()
+        {
+            lbNumbers.DataSource = null;
+            lbNumbers.DataSource = sort.numberList;
         }
     }
 }
