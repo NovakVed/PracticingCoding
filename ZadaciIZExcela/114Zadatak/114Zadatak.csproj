@@ -7,7 +7,7 @@
     <ProjectGuid>{60AD8A93-2914-423F-A9B3-9D67C71E997A}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>_114Zadatak</RootNamespace>
-    <AssemblyName>_114Zadatak</AssemblyName>
+    <AssemblyName>114Zadatak</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
