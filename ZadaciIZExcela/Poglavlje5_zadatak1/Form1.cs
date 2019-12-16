@@ -16,5 +16,10 @@ namespace Poglavlje5_zadatak1
         {
             InitializeComponent();
         }
+
+        private void btnPretrazi_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

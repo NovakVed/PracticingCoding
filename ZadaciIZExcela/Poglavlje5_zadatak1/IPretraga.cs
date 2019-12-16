@@ -9,7 +9,6 @@ namespace Poglavlje5_zadatak1
     public interface IPretraga
     {
         bool Usporedi(string kljucnaRijec);
-
-        string Ispis();
+        string Ispisi();
     }
 }
