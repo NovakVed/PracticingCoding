@@ -10,12 +10,10 @@ namespace Poglavlje5_zadatak1
     {
         public string Ime { get; set; }
         public string Prezime { get; set; }
-        public string Email { get; set; }
-        public Autor(string ime, string prezime, string email)
+        public Autor(string ime, string prezime)
         {
             Ime = ime;
             Prezime = prezime;
-            Email = email;
         }
         public string Ispisi()
         {

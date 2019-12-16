@@ -9,9 +9,12 @@ namespace Poglavlje5_zadatak1
     class Knjiga : IPretraga
     {
         public string Naziv { get; set; }
-        public int Godina { get; set; }
-        public int Izdanje { get; set; }
+
         public List<IPretraga> Autori = new List<IPretraga>();
+        public Knjiga(string naziv)
+        {
+            Naziv = naziv;
+        }
 
         public string Ispisi()
         {

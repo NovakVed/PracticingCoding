@@ -151,6 +151,7 @@
             this.btnDodajAutora.TabIndex = 6;
             this.btnDodajAutora.Text = "Dodaj";
             this.btnDodajAutora.UseVisualStyleBackColor = true;
+            this.btnDodajAutora.Click += new System.EventHandler(this.btnDodajAutora_Click);
             // 
             // btnPretrazi
             // 
@@ -170,6 +171,7 @@
             this.btnDodajKnjigu.TabIndex = 8;
             this.btnDodajKnjigu.Text = "Dodaj";
             this.btnDodajKnjigu.UseVisualStyleBackColor = true;
+            this.btnDodajKnjigu.Click += new System.EventHandler(this.btnDodajKnjigu_Click);
             // 
             // label4
             // 

@@ -21,5 +21,15 @@ namespace Poglavlje5_zadatak1
         {
 
         }
+
+        private void btnDodajKnjigu_Click(object sender, EventArgs e)
+        {
+            Knjiga knjiga = new Knjiga(txtNazivKnjige.Text);
+        }
+
+        private void btnDodajAutora_Click(object sender, EventArgs e)
+        {
+            Autor autor = new Autor(txtImeAutora.Text, txtPrezimeAutora.Text);
+        }
     }
 }
