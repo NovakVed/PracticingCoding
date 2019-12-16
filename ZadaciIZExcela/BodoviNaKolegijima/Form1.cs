@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Poglavlje5_zadatak1
+namespace BodoviNaKolegijima
 {
     public partial class Form1 : Form
     {
@@ -17,17 +17,7 @@ namespace Poglavlje5_zadatak1
             InitializeComponent();
         }
 
-        private void btnPretrazi_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnDodajKnjigu_Click(object sender, EventArgs e)
-        {
-            Knjiga knjiga = new Knjiga(txtNazivKnjige.Text);
-        }
-
-        private void btnDodajAutora_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
