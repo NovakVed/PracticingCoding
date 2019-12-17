@@ -8,5 +8,10 @@ namespace BodoviNaKolegijima
 {
     class BodoviNaKolegiju
     {
+        public int Bodovi { get; set; }
+        public BodoviNaKolegiju(int bodovi)
+        {
+            Bodovi = bodovi;
+        }
     }
 }

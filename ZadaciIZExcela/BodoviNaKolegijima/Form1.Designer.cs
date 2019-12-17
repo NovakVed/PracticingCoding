@@ -62,6 +62,7 @@
             this.lbKolegiji.Name = "lbKolegiji";
             this.lbKolegiji.Size = new System.Drawing.Size(120, 132);
             this.lbKolegiji.TabIndex = 13;
+            this.lbKolegiji.SelectedIndexChanged += new System.EventHandler(this.lbKolegiji_SelectedIndexChanged);
             // 
             // lbAktivnosti
             // 
@@ -71,6 +72,7 @@
             this.lbAktivnosti.Name = "lbAktivnosti";
             this.lbAktivnosti.Size = new System.Drawing.Size(120, 132);
             this.lbAktivnosti.TabIndex = 14;
+            this.lbAktivnosti.SelectedIndexChanged += new System.EventHandler(this.lbAktivnosti_SelectedIndexChanged);
             // 
             // label2
             // 
@@ -145,6 +147,7 @@
             this.btnSpremiKolegij.TabIndex = 23;
             this.btnSpremiKolegij.Text = "Spremi";
             this.btnSpremiKolegij.UseVisualStyleBackColor = true;
+            this.btnSpremiKolegij.Click += new System.EventHandler(this.btnSpremiKolegij_Click);
             // 
             // btnSpremiAktivnost
             // 
@@ -154,6 +157,7 @@
             this.btnSpremiAktivnost.TabIndex = 24;
             this.btnSpremiAktivnost.Text = "Spremi";
             this.btnSpremiAktivnost.UseVisualStyleBackColor = true;
+            this.btnSpremiAktivnost.Click += new System.EventHandler(this.btnSpremiAktivnost_Click);
             // 
             // btnSpremi
             // 
