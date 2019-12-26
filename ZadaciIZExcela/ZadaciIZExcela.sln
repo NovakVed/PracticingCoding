@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayingLoto", "PlayingLoto\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poglavlje5_zadatak1", "Poglavlje5_zadatak1\Poglavlje5_zadatak1.csproj", "{0320B073-4001-47D3-B035-B4C7975608C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnosGradDrzave", "UnosGradDrzave\UnosGradDrzave.csproj", "{8937450C-E6FC-4182-ABED-CE28508EA766}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{0320B073-4001-47D3-B035-B4C7975608C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0320B073-4001-47D3-B035-B4C7975608C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0320B073-4001-47D3-B035-B4C7975608C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8937450C-E6FC-4182-ABED-CE28508EA766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8937450C-E6FC-4182-ABED-CE28508EA766}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8937450C-E6FC-4182-ABED-CE28508EA766}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8937450C-E6FC-4182-ABED-CE28508EA766}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
