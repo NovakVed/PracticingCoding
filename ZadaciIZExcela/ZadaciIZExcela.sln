@@ -25,8 +25,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayingLoto", "PlayingLoto\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poglavlje5_zadatak1", "Poglavlje5_zadatak1\Poglavlje5_zadatak1.csproj", "{0320B073-4001-47D3-B035-B4C7975608C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BodoviNaKolegijima", "BodoviNaKolegijima\BodoviNaKolegijima.csproj", "{F1607C7A-0051-400A-A0A0-85BA94FCBF4D}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,10 +75,6 @@ Global
 		{0320B073-4001-47D3-B035-B4C7975608C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0320B073-4001-47D3-B035-B4C7975608C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0320B073-4001-47D3-B035-B4C7975608C1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F1607C7A-0051-400A-A0A0-85BA94FCBF4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F1607C7A-0051-400A-A0A0-85BA94FCBF4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F1607C7A-0051-400A-A0A0-85BA94FCBF4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F1607C7A-0051-400A-A0A0-85BA94FCBF4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
