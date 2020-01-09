@@ -23,10 +23,5 @@ namespace UnosGradDrzave
         {
             ListaGradova.Add(grad);
         }
-
-        public int BrojStanovnika()
-        {
-
-        }
     }
 }
