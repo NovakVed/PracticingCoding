@@ -46,7 +46,7 @@
             // txtNazivDrzave
             // 
             this.txtNazivDrzave.Location = new System.Drawing.Point(23, 41);
-            this.txtNazivDrzave.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNazivDrzave.Margin = new System.Windows.Forms.Padding(2);
             this.txtNazivDrzave.Name = "txtNazivDrzave";
             this.txtNazivDrzave.Size = new System.Drawing.Size(119, 20);
             this.txtNazivDrzave.TabIndex = 0;
@@ -54,7 +54,7 @@
             // txtBrojStanovnika
             // 
             this.txtBrojStanovnika.Location = new System.Drawing.Point(260, 76);
-            this.txtBrojStanovnika.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtBrojStanovnika.Margin = new System.Windows.Forms.Padding(2);
             this.txtBrojStanovnika.Name = "txtBrojStanovnika";
             this.txtBrojStanovnika.Size = new System.Drawing.Size(119, 20);
             this.txtBrojStanovnika.TabIndex = 1;
@@ -62,12 +62,13 @@
             // btnUnesiDrzavu
             // 
             this.btnUnesiDrzavu.Location = new System.Drawing.Point(52, 63);
-            this.btnUnesiDrzavu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnUnesiDrzavu.Margin = new System.Windows.Forms.Padding(2);
             this.btnUnesiDrzavu.Name = "btnUnesiDrzavu";
             this.btnUnesiDrzavu.Size = new System.Drawing.Size(88, 42);
             this.btnUnesiDrzavu.TabIndex = 2;
             this.btnUnesiDrzavu.Text = "Unesi drzavu";
             this.btnUnesiDrzavu.UseVisualStyleBackColor = true;
+            this.btnUnesiDrzavu.Click += new System.EventHandler(this.btnUnesiDrzavu_Click);
             // 
             // label1
             // 
@@ -93,7 +94,7 @@
             // 
             this.cbOdabirDrzave.FormattingEnabled = true;
             this.cbOdabirDrzave.Location = new System.Drawing.Point(260, 112);
-            this.cbOdabirDrzave.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbOdabirDrzave.Margin = new System.Windows.Forms.Padding(2);
             this.cbOdabirDrzave.Name = "cbOdabirDrzave";
             this.cbOdabirDrzave.Size = new System.Drawing.Size(119, 21);
             this.cbOdabirDrzave.TabIndex = 5;
@@ -111,7 +112,7 @@
             // btnUnosGrada
             // 
             this.btnUnosGrada.Location = new System.Drawing.Point(291, 136);
-            this.btnUnosGrada.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnUnosGrada.Margin = new System.Windows.Forms.Padding(2);
             this.btnUnosGrada.Name = "btnUnosGrada";
             this.btnUnosGrada.Size = new System.Drawing.Size(88, 42);
             this.btnUnosGrada.TabIndex = 7;
@@ -121,7 +122,7 @@
             // txtNazivGrada
             // 
             this.txtNazivGrada.Location = new System.Drawing.Point(262, 38);
-            this.txtNazivGrada.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNazivGrada.Margin = new System.Windows.Forms.Padding(2);
             this.txtNazivGrada.Name = "txtNazivGrada";
             this.txtNazivGrada.Size = new System.Drawing.Size(119, 20);
             this.txtNazivGrada.TabIndex = 6;
@@ -171,7 +172,7 @@
             this.Controls.Add(this.btnUnesiDrzavu);
             this.Controls.Add(this.txtBrojStanovnika);
             this.Controls.Add(this.txtNazivDrzave);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.dgwIspisDrzavaGradova)).EndInit();
