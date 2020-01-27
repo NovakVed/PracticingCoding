@@ -16,5 +16,10 @@ namespace Loto7_39
         {
             InitializeComponent();
         }
+
+        private void btnUplati_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
