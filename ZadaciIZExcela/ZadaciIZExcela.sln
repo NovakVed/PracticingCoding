@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnosGradDrzave", "UnosGradD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loto7_39", "Loto7_39\Loto7_39.csproj", "{C45FA81F-D314-4D41-B3A1-3837DADDFB62}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Knjiznica", "Knjiznica\Knjiznica.csproj", "{6603B6A7-A8B4-4B5A-AD4D-FF07F7D48440}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{C45FA81F-D314-4D41-B3A1-3837DADDFB62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C45FA81F-D314-4D41-B3A1-3837DADDFB62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C45FA81F-D314-4D41-B3A1-3837DADDFB62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6603B6A7-A8B4-4B5A-AD4D-FF07F7D48440}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6603B6A7-A8B4-4B5A-AD4D-FF07F7D48440}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6603B6A7-A8B4-4B5A-AD4D-FF07F7D48440}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6603B6A7-A8B4-4B5A-AD4D-FF07F7D48440}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
