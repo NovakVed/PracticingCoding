@@ -21,7 +21,7 @@ namespace Knjiznica
 
         public string Ispisi()
         {
-
+            return "Autor: " + Ime + " " + Prezime + ", Email:  " + Email; 
         }
 
         public bool Usporedi(string kljucnaRijec)
