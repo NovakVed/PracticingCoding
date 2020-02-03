@@ -26,7 +26,7 @@ namespace Knjiznica
 
         public bool Usporedi(string kljucnaRijec)
         {
-
+            return Ispisi().Contains(kljucnaRijec);
         }
     }
 }
