@@ -21,12 +21,17 @@ namespace Knjiznica
 
         public string Ispisi()
         {
-            return "Autor: " + Ime + " " + Prezime + ", Email:  " + Email; 
+            return ToString(); 
         }
 
         public bool Usporedi(string kljucnaRijec)
         {
             return Ispisi().Contains(kljucnaRijec);
+        }
+
+        public override string ToString()
+        {
+            return String.Format("Ime: {0}  Prezime: {1} Email: {2}", this.Ime, this.Prezime, this.Email);
         }
     }
 }

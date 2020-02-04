@@ -13,6 +13,13 @@ namespace Knjiznica
         public int Izdanje { get; set; }
         public List<Autor> ListaAutora = new List<Autor>();
 
+        public Knjiga(string naziv, int godina, int izdanje)
+        {
+            Naziv = naziv;
+            Godina = godina;
+            Izdanje = izdanje;
+        }
+
         public void DodajAutora(Autor autor)
         {
             this.ListaAutora.Add(autor);

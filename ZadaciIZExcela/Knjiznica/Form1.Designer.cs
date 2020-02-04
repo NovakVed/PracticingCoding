@@ -84,6 +84,7 @@
             this.btnDodajKnjigu.TabIndex = 12;
             this.btnDodajKnjigu.Text = "Dodaj knjigu";
             this.btnDodajKnjigu.UseVisualStyleBackColor = true;
+            this.btnDodajKnjigu.Click += new System.EventHandler(this.btnDodajKnjigu_Click);
             // 
             // btnIzbrisiOdabranogAutora
             // 
@@ -93,6 +94,7 @@
             this.btnIzbrisiOdabranogAutora.TabIndex = 11;
             this.btnIzbrisiOdabranogAutora.Text = "Izbrisi autora";
             this.btnIzbrisiOdabranogAutora.UseVisualStyleBackColor = true;
+            this.btnIzbrisiOdabranogAutora.Click += new System.EventHandler(this.btnIzbrisiOdabranogAutora_Click);
             // 
             // label7
             // 
