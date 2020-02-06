@@ -12,7 +12,7 @@ namespace Knjiznica
 {
     public partial class Form1 : Form
     {
-        Knjiga knjiga;
+        private Knjiga knjiga;
 
         private List<Knjiga> ListaKnjiga;
         public Form1()
@@ -24,8 +24,8 @@ namespace Knjiznica
         private void btnDodajAutora_Click(object sender, EventArgs e)
         {
             Autor autor = new Autor(txtIme.Text, txtPrezime.Text, txtEmail.Text);
-            knjiga.DodajAutora(autor);
-            lbAutori.DataSource = null;
+            (lbKnjiga.SelectedItem as Knjiga).DodajAutora(autor);
+            OsvijeziPopisKnjiga();
             OsvijeziPopisAutora();
         }
 
@@ -38,13 +38,36 @@ namespace Knjiznica
         private void OsvijeziPopisAutora()
         {
             lbAutori.DataSource = null;
-            lbAutori.DataSource = knjiga.ListaAutora;
+            lbAutori.DataSource = (lbKnjiga.SelectedItem as Knjiga).ListaAutora;
+        }
+        
+        private void OsvijeziPopisKnjiga()
+        {
+            lbKnjiga.DataSource = null;
+            lbKnjiga.DataSource = ListaKnjiga;
         }
 
         private void btnDodajKnjigu_Click(object sender, EventArgs e)
         {
             knjiga = new Knjiga(txtNazivKnjige.Text, int.Parse(txtGodinaKnjige.Text), int.Parse(txtIzdanjeKnjige.Text));
             ListaKnjiga.Add(knjiga);
+            OsvijeziPopisKnjiga();
+        }
+
+        private void lbKnjiga_MouseClick(object sender, MouseEventArgs e)
+        {
+            OsvijeziPopisAutora();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            foreach (var item in ListaKnjiga)
+            {
+                if (item.Usporedi(txtPretraziAutoreIKnjige.Text))
+                {
+                    rtbPretragaAutoraIKnjige.Text += item.Ispisi();
+                }
+            }
         }
     }
 }

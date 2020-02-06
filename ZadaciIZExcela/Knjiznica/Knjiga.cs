@@ -11,13 +11,14 @@ namespace Knjiznica
         public string Naziv { get; set; }
         public int Godina { get; set; }
         public int Izdanje { get; set; }
-        public List<Autor> ListaAutora = new List<Autor>();
+        public List<Autor> ListaAutora { get; set; }
 
         public Knjiga(string naziv, int godina, int izdanje)
         {
             Naziv = naziv;
             Godina = godina;
             Izdanje = izdanje;
+            ListaAutora = new List<Autor>();
         }
 
         public void DodajAutora(Autor autor)
@@ -61,6 +62,11 @@ namespace Knjiznica
                 ispis += item.Ispisi() + "\n";
             }
             return ispis;
+        }
+
+        public override string ToString()
+        {
+            return Naziv;
         }
     }
 }

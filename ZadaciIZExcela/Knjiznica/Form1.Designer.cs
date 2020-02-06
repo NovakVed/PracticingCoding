@@ -30,15 +30,13 @@
         {
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.btnDodajKnjigu = new System.Windows.Forms.Button();
-            this.btnIzbrisiOdabranogAutora = new System.Windows.Forms.Button();
-            this.label7 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.lbAutori = new System.Windows.Forms.ListBox();
             this.txtIzdanjeKnjige = new System.Windows.Forms.TextBox();
             this.txtGodinaKnjige = new System.Windows.Forms.TextBox();
             this.txtNazivKnjige = new System.Windows.Forms.TextBox();
+            this.btnIzbrisiOdabranogAutora = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.rtbPretragaAutoraIKnjige = new System.Windows.Forms.RichTextBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -51,7 +49,11 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.lbKnjiga = new System.Windows.Forms.ListBox();
             this.btnDodajAutora = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
+            this.lbAutori = new System.Windows.Forms.ListBox();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -60,50 +62,28 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.btnDodajKnjigu);
-            this.groupBox2.Controls.Add(this.btnIzbrisiOdabranogAutora);
-            this.groupBox2.Controls.Add(this.label7);
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Controls.Add(this.label6);
-            this.groupBox2.Controls.Add(this.lbAutori);
             this.groupBox2.Controls.Add(this.txtIzdanjeKnjige);
             this.groupBox2.Controls.Add(this.txtGodinaKnjige);
             this.groupBox2.Controls.Add(this.txtNazivKnjige);
-            this.groupBox2.Location = new System.Drawing.Point(569, 12);
+            this.groupBox2.Location = new System.Drawing.Point(12, 12);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(405, 426);
+            this.groupBox2.Size = new System.Drawing.Size(405, 150);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Knjige";
             // 
             // btnDodajKnjigu
             // 
-            this.btnDodajKnjigu.Location = new System.Drawing.Point(6, 355);
+            this.btnDodajKnjigu.Location = new System.Drawing.Point(271, 35);
             this.btnDodajKnjigu.Name = "btnDodajKnjigu";
-            this.btnDodajKnjigu.Size = new System.Drawing.Size(393, 65);
+            this.btnDodajKnjigu.Size = new System.Drawing.Size(128, 95);
             this.btnDodajKnjigu.TabIndex = 12;
             this.btnDodajKnjigu.Text = "Dodaj knjigu";
             this.btnDodajKnjigu.UseVisualStyleBackColor = true;
             this.btnDodajKnjigu.Click += new System.EventHandler(this.btnDodajKnjigu_Click);
-            // 
-            // btnIzbrisiOdabranogAutora
-            // 
-            this.btnIzbrisiOdabranogAutora.Location = new System.Drawing.Point(271, 326);
-            this.btnIzbrisiOdabranogAutora.Name = "btnIzbrisiOdabranogAutora";
-            this.btnIzbrisiOdabranogAutora.Size = new System.Drawing.Size(107, 23);
-            this.btnIzbrisiOdabranogAutora.TabIndex = 11;
-            this.btnIzbrisiOdabranogAutora.Text = "Izbrisi autora";
-            this.btnIzbrisiOdabranogAutora.UseVisualStyleBackColor = true;
-            this.btnIzbrisiOdabranogAutora.Click += new System.EventHandler(this.btnIzbrisiOdabranogAutora_Click);
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(6, 137);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(34, 13);
-            this.label7.TabIndex = 9;
-            this.label7.Text = "Autori";
             // 
             // label4
             // 
@@ -132,14 +112,6 @@
             this.label6.TabIndex = 6;
             this.label6.Text = "Naziv";
             // 
-            // lbAutori
-            // 
-            this.lbAutori.FormattingEnabled = true;
-            this.lbAutori.Location = new System.Drawing.Point(70, 137);
-            this.lbAutori.Name = "lbAutori";
-            this.lbAutori.Size = new System.Drawing.Size(184, 212);
-            this.lbAutori.TabIndex = 4;
-            // 
             // txtIzdanjeKnjige
             // 
             this.txtIzdanjeKnjige.Location = new System.Drawing.Point(70, 110);
@@ -161,15 +133,25 @@
             this.txtNazivKnjige.Size = new System.Drawing.Size(184, 20);
             this.txtNazivKnjige.TabIndex = 1;
             // 
+            // btnIzbrisiOdabranogAutora
+            // 
+            this.btnIzbrisiOdabranogAutora.Location = new System.Drawing.Point(548, 326);
+            this.btnIzbrisiOdabranogAutora.Name = "btnIzbrisiOdabranogAutora";
+            this.btnIzbrisiOdabranogAutora.Size = new System.Drawing.Size(107, 23);
+            this.btnIzbrisiOdabranogAutora.TabIndex = 11;
+            this.btnIzbrisiOdabranogAutora.Text = "Izbrisi autora";
+            this.btnIzbrisiOdabranogAutora.UseVisualStyleBackColor = true;
+            this.btnIzbrisiOdabranogAutora.Click += new System.EventHandler(this.btnIzbrisiOdabranogAutora_Click);
+            // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.rtbPretragaAutoraIKnjige);
             this.groupBox3.Controls.Add(this.button1);
             this.groupBox3.Controls.Add(this.label1);
             this.groupBox3.Controls.Add(this.txtPretraziAutoreIKnjige);
-            this.groupBox3.Location = new System.Drawing.Point(12, 200);
+            this.groupBox3.Location = new System.Drawing.Point(423, 377);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(548, 232);
+            this.groupBox3.Size = new System.Drawing.Size(659, 232);
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Pretraga";
@@ -190,6 +172,7 @@
             this.button1.TabIndex = 3;
             this.button1.Text = "btnPretrazi";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -257,19 +240,42 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.label8);
+            this.groupBox1.Controls.Add(this.btnIzbrisiOdabranogAutora);
+            this.groupBox1.Controls.Add(this.lbKnjiga);
             this.groupBox1.Controls.Add(this.btnDodajAutora);
+            this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.lbAutori);
             this.groupBox1.Controls.Add(this.lblName);
             this.groupBox1.Controls.Add(this.txtEmail);
             this.groupBox1.Controls.Add(this.txtPrezime);
             this.groupBox1.Controls.Add(this.txtIme);
-            this.groupBox1.Location = new System.Drawing.Point(12, 12);
+            this.groupBox1.Location = new System.Drawing.Point(423, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(548, 167);
+            this.groupBox1.Size = new System.Drawing.Size(659, 359);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Autori";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(6, 137);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(36, 13);
+            this.label8.TabIndex = 13;
+            this.label8.Text = "Knjige";
+            // 
+            // lbKnjiga
+            // 
+            this.lbKnjiga.FormattingEnabled = true;
+            this.lbKnjiga.Location = new System.Drawing.Point(115, 137);
+            this.lbKnjiga.Name = "lbKnjiga";
+            this.lbKnjiga.Size = new System.Drawing.Size(184, 212);
+            this.lbKnjiga.TabIndex = 7;
+            this.lbKnjiga.MouseClick += new System.Windows.Forms.MouseEventHandler(this.lbKnjiga_MouseClick);
             // 
             // btnDodajAutora
             // 
@@ -281,11 +287,28 @@
             this.btnDodajAutora.UseVisualStyleBackColor = true;
             this.btnDodajAutora.Click += new System.EventHandler(this.btnDodajAutora_Click);
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(318, 137);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(34, 13);
+            this.label7.TabIndex = 9;
+            this.label7.Text = "Autori";
+            // 
+            // lbAutori
+            // 
+            this.lbAutori.FormattingEnabled = true;
+            this.lbAutori.Location = new System.Drawing.Point(358, 137);
+            this.lbAutori.Name = "lbAutori";
+            this.lbAutori.Size = new System.Drawing.Size(184, 212);
+            this.lbAutori.TabIndex = 4;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1011, 450);
+            this.ClientSize = new System.Drawing.Size(1148, 622);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -303,11 +326,9 @@
 
         #endregion
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ListBox lbAutori;
         private System.Windows.Forms.TextBox txtIzdanjeKnjige;
         private System.Windows.Forms.TextBox txtGodinaKnjige;
         private System.Windows.Forms.TextBox txtNazivKnjige;
@@ -326,6 +347,10 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button btnDodajAutora;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.ListBox lbKnjiga;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.ListBox lbAutori;
     }
 }
 
