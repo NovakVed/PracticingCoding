@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace Imenik
 {
-    abstract class Grupa
+    class Prijatelji
     {
-        public string Naziv { get; set; }
     }
 }
