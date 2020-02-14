@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loto7_39", "Loto7_39\Loto7_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Knjiznica", "Knjiznica\Knjiznica.csproj", "{6603B6A7-A8B4-4B5A-AD4D-FF07F7D48440}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Knjiznica_Poglavlje6", "Knjiznica_Poglavlje6\Knjiznica_Poglavlje6.csproj", "{27B89CA2-6E19-41DB-8770-3BDB857D373A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{6603B6A7-A8B4-4B5A-AD4D-FF07F7D48440}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6603B6A7-A8B4-4B5A-AD4D-FF07F7D48440}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6603B6A7-A8B4-4B5A-AD4D-FF07F7D48440}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27B89CA2-6E19-41DB-8770-3BDB857D373A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27B89CA2-6E19-41DB-8770-3BDB857D373A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27B89CA2-6E19-41DB-8770-3BDB857D373A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27B89CA2-6E19-41DB-8770-3BDB857D373A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
